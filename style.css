@@ -1,0 +1,98 @@
+.card-body .zone-comments .one-comment p {
+  font-size: 18px;
+  color: black;
+  background-color: #dce0d9;
+  padding: 5px;
+  border-radius: 5px;
+  padding-left: 2%; }
+
+.header #banner {
+  background: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)), url("./static/image/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-width: 100% auto;
+  background-color: #F4F4F2;
+  padding: 150px 0;
+  color: black;
+  text-align: center; }
+  .header #banner div img {
+    border-radius: 10px; }
+    @media (min-width: 0px) {
+      .header #banner div img {
+        width: 40%; } }
+    @media (min-width: 576px) {
+      .header #banner div img {
+        width: 30%; } }
+    @media (min-width: 768px) {
+      .header #banner div img {
+        width: 25%; } }
+    @media (min-height: 992px) {
+      .header #banner div img {
+        width: 20%; } }
+    @media (min-width: 1200px) {
+      .header #banner div img {
+        width: 15%; } }
+
+
+
+.row {
+  background-color: grey;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  border-radius: 5px; }
+  .row .col-lg-3, .row .col-md-4, .row .col-sm-6 {
+    font-size: 20px;
+    text-align: center; }
+    .row .col-lg-3 div, .row .col-md-4 div, .row .col-sm-6 div {
+      background-color: white;
+      padding-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 6px rgba(50, 50, 93, 0.11); }
+      .row .col-lg-3 div img, .row .col-md-4 div img, .row .col-sm-6 div img {
+        border-radius: 5px; }
+
+.card-body a {
+  margin: 10px; }
+.card-body h3 {
+  text-align: center;
+  padding: 20px; }
+.card-body .card-title {
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+.card-body .card-text p {
+  list-style: none;
+  text-align: center;
+  padding: 5px; }
+  .card-body .card-text p b {
+    font-size: 22px; }
+.card-body .zone-comments {
+  background-color: white; }
+  .card-body .zone-comments .one-comment {
+    text-align: left; }
+.card-body table {
+  margin: 80px auto; }
+  .card-body table td, .card-body table th {
+    padding-right: 15px;
+    padding-left: 15px; }
+
+form {
+  margin: 5px; }
+
+.remplir {
+  margin: 10px; }
+
+#footer {
+  padding: 30px;
+  background-color: black;
+  color: lightgrey; }
+  #footer a {
+    color: lightgrey;
+    font-size: 32px; }
+  #footer a:hover {
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
